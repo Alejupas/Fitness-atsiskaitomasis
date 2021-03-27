@@ -1,0 +1,9 @@
+/* Variables - kintamieji */
+:root {
+  --none: none;
+  --text-color-white: white;
+  --object-fit-cover: cover;
+  --object-center: center;
+  --one-pixel-black-border: 1px solid black;
+  --margin-center: 0 auto;
+}

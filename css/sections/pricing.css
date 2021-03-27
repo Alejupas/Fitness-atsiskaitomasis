@@ -1,0 +1,81 @@
+/* PRICING */
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-card {
+  border: 2px solid grey;
+  border-radius: 20px;
+  flex-basis: 28%;
+}
+
+.price-background-color1 {
+  background-color: rgb(74, 200, 137);
+  border-radius: 17px 17px 0 0;
+}
+
+.button-select1 {
+  background-color: rgb(74, 200, 137);
+  width: 100%;
+  border-radius: 0 0 17px 17px;
+  outline: var(--none);
+  font-size: 14px;
+  line-height: 3em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: var(--text-color-white);
+}
+
+.price-background-color2 {
+  background-color: rgb(26, 172, 99);
+  border-radius: 17px 17px 0 0;
+}
+
+.button-select2 {
+  background-color: rgb(26, 172, 99);
+  width: 100%;
+  border-radius: 0 0 17px 17px;
+  outline: none;
+  font-size: 14px;
+  line-height: 3em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: var(--text-color-white);
+}
+
+.price-background-color3 {
+  background-color: rgb(7, 121, 64);
+  border-radius: 17px 17px 0 0;
+}
+
+.button-select3 {
+  background-color: rgb(7, 121, 64);
+  width: 100%;
+  border-radius: 0 0 17px 17px;
+  outline: var(--none);
+  font-size: 14px;
+  line-height: 3em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: var(--text-color-white);
+}
+
+/* benefits */
+.price-benefits-list ul {
+  padding-left: 6px;
+}
+
+.price-benefits-list li {
+  line-height: 3em;
+  border-bottom: 1px solid rgba(175, 175, 175, 0.404);
+}
+
+.price-benefits-list li:nth-child(3) {
+  border-bottom: var(--none);
+}
+
+.fa-check {
+  color: rgba(88, 126, 86, 0.87);
+}

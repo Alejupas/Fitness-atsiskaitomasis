@@ -1,0 +1,40 @@
+/* MAIN-ABOUT */
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px 20px 90px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about-container__text {
+  flex-basis: 70%;
+}
+
+.about-h2 {
+  padding-bottom: 40px;
+}
+
+.about-text-p {
+  margin-bottom: 20px;
+}
+
+.about-container__image {
+  flex-basis: 20%;
+}
+
+.about-container__image img {
+  border-bottom: var(--one-pixel-black-border);
+}
+
+.about-button {
+  padding: 9px 20px;
+  border-radius: 7px;
+  outline: var(--none);
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.about-button:hover {
+  background-color: rgba(26, 98, 165, 0.466);
+}

@@ -1,0 +1,51 @@
+/* HERO */
+header {
+  background: linear-gradient(
+      0deg,
+      rgba(54, 54, 54, 0.3),
+      rgba(36, 36, 36, 0.507)
+    ),
+    url("/img/pexels-joyston-judah-933054.jpg");
+  object-fit: var(--object-fit-cover);
+  background-size: var(--object-fit-cover);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: var(--object-center);
+  position: relative;
+}
+
+/* ---Hero content */
+.hero-content {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+}
+
+.hero__button {
+  padding: 15px 40px;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.678);
+  font-weight: 600;
+  box-shadow: 5px 4px 3px rgba(59, 59, 59, 0.637);
+  font-size: 18px;
+  text-shadow: rgb(39, 39, 39) 1px 2px 10px;
+}
+
+.hero__button a {
+  text-decoration: var(--none);
+  color: var(--text-color-white);
+}
+
+.hero__button:focus {
+  border: var(--none);
+  outline: var(--none);
+}
+
+.hero__button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.hero__button:active {
+  background-color: rgba(37, 37, 37, 0.589);
+}

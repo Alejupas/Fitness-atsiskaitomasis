@@ -1,0 +1,27 @@
+/* FOOTER  */
+footer {
+  background-color: rgba(14, 13, 13, 0.883);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.footer-quote,
+.important-links,
+.footer-reach-info,
+.footer-about-us {
+  flex-basis: 23%;
+}
+
+.important-links ul {
+  list-style-type: var(--none);
+  line-height: 2em;
+}
+
+.important-links a {
+  color: rgb(149, 149, 149);
+  text-decoration: var(--none);
+}

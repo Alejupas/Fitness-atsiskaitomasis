@@ -1,0 +1,69 @@
+/* PROGRAM */
+.program-content__txt-img {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(119, 35, 35, 0.13)
+  );
+}
+
+.program-content__grid-list {
+  background-color: rgba(119, 35, 35, 0.13);
+  padding: 20px 90px;
+}
+
+.program-img {
+  height: 70vh;
+  display: block;
+  margin: var(--margin-center);
+  border-bottom: var(--one-pixel-black-border);
+}
+
+/* ---GRID list */
+
+/* icons */
+.img1,
+.img2,
+.img3,
+.img4 {
+  height: 100px;
+  margin: var(--margin-center);
+}
+
+/* grid  */
+.program-content__grid-list {
+  display: grid;
+  grid-template-areas:
+    "img1 img2"
+    "txt1 txt2"
+    "img3 img4"
+    "txt3 txt4";
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.img1 {
+  grid-area: img1;
+}
+.program-content__grid-list-text1 {
+  grid-area: txt1;
+}
+.img2 {
+  grid-area: img2;
+}
+.program-content__grid-list-text2 {
+  grid-area: txt2;
+}
+.img1 {
+  grid-area: img2;
+}
+.program-content__grid-list-text3 {
+  grid-area: txt3;
+}
+.img1 {
+  grid-area: img4;
+}
+.program-content__grid-list-text4 {
+  grid-area: txt4;
+}

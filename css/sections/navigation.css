@@ -1,0 +1,28 @@
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: var(--object-center);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(47, 47, 47, 0.486);
+}
+
+.nav-logo {
+  height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: var(--object-center);
+}
+
+.nav-menu a:hover {
+  background-color: rgba(51, 51, 51, 0.746);
+  line-height: 78px;
+}
+
+.nav-menu li {
+  list-style-type: var(--none);
+  padding: 0 25px;
+}

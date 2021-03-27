@@ -1,0 +1,124 @@
+/* -----Fonts / Text  */
+h1,
+.hero__text {
+  color: white;
+  padding-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* NAVIGATION */
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu a:active {
+  color: rgb(204, 183, 183);
+  font-weight: 800;
+}
+
+/* mix  */
+h2,
+h3 {
+  font-size: 1.5rem;
+}
+
+.program-content__grid-list-title,
+.pricing-title {
+  font-size: 1.35rem;
+}
+
+/* ABOUT */
+.about-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/* PROGRAM  */
+.program-h3 {
+  text-align: center;
+}
+
+/* program text  */
+.program-content__grid-list-text1,
+.program-content__grid-list-text2,
+.program-content__grid-list-text3,
+.program-content__grid-list-text4 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+/* PRICING  */
+
+.pricing-title-h3 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.pricing-title {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0;
+  color: white;
+}
+
+.pricing-price {
+  font-size: 1.6rem;
+  text-align: center;
+  color: white;
+}
+
+.price-span {
+  font-size: 4rem;
+}
+
+.pricing-card li {
+  list-style-type: none;
+}
+
+/* BLOG */
+.blog-name {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.blog-title {
+  font-size: 1.15rem;
+  margin: 17px 0;
+}
+
+.blog-read-more {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/* ASIDE  */
+.aside-title {
+  text-align: center;
+  padding-bottom: 30px;
+  color: rgba(9, 9, 170, 0.918);
+}
+
+/* CONTACT  */
+.contact-title {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.send {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-smalll-title {
+  font-size: 1rem;
+  margin: 0;
+  color: rgb(14, 13, 13);
+}
+
+.important-information__text {
+  color: rgb(149, 149, 149);
+}
